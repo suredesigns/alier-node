@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16"
+  },
+  "description": "Alier framework for Node.js server",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./AlierDB": "./src/AlierDB.js",
+    "./Auth": "./src/Auth.js",
+    "./ContentType": "./src/ContentType.js",
+    "./Copyutil": "./src/Copyutil.js",
+    "./Credentials": "./src/Credentials.js",
+    "./Pattern": "./src/Pattern.js",
+    "./Result": "./srs/Result.js",
+    "./Router": "./src/Router.js",
+    "./Use": "./src/Use.js",
+    "./WebApi": "./src/WebApi.js",
+    "./WebApiError": "./src/WebApiError.js",
+    "./WebResource": "./src/WebResource.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node scripts/test.js",
+    "install": "node scripts/install.js"
+  },
+  "name": "@suredesigns/alier",
+  "author": "Suredesigns Corp.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mysql2": "^3.14.1",
+    "oracledb": "^6.8.0",
+    "pg": "^8.16.0"
+  }
+}

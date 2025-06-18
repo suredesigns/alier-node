@@ -1,0 +1,18 @@
+---
+basedOnStyle: Google
+UseTab: Never
+IndentWidth: 4
+---
+Language: Cpp
+AlignAfterOpenBracket: BlockIndent
+InsertBraces: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseExpressionOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLambdasOnASingleLine: Inline
+AllowShortLoopsOnASingleLine: false
+---
